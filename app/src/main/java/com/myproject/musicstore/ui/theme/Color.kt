@@ -7,6 +7,8 @@ val BaseLightPalette = MusicStyleColors(
     black = Color(0xFF000000),
     gray = Color(0xFFAAAAAA),
     stubs = Color(0xFF333333),
-    purpleLight = Color(0xFF1D0071),
-    purpleDark = Color(0xFF140050),
+    darkStubs = Color(0xFF111111),
+    primary = Color(0xFF004D6F),
+    initialValueColor = Color(0xFF333333),
+    targetValue = Color(0xFF393939),
 )

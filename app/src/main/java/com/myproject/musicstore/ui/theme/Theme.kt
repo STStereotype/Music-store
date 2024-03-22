@@ -13,9 +13,10 @@ fun MusicStoreTheme(
     val typography = Typography
     val shape = Shapes
 
-    CompositionLocalProvider {
-        LocalMusicStyleColors provides colors
-        LocalMusicStyleTypography provides typography
-        LocalMusicStyleShape provides shape
-    }
+    CompositionLocalProvider(
+        LocalMusicStyleColors provides colors,
+        LocalMusicStyleTypography provides typography,
+        LocalMusicStyleShape provides shape,
+        content = content
+    )
 }

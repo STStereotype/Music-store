@@ -2,6 +2,7 @@ package com.myproject.musicstore.ui.theme
 
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.sp
 
 // FontWeight
@@ -22,7 +23,7 @@ val Typography = MusicStyleTypography(
         fontWeight = medium,
     ),
     blockTitle = defaultValue.copy(fontSize = 14.sp),
-    nameTrack = defaultValue.copy(
+    nameAudio = defaultValue.copy(
         fontSize = 14.sp,
         fontWeight = medium,
     ),
@@ -33,5 +34,6 @@ val Typography = MusicStyleTypography(
     smallText = defaultValue.copy(
         fontSize = 10.sp,
         color = BaseLightPalette.gray,
+        textAlign = TextAlign.Center
     ),
 )

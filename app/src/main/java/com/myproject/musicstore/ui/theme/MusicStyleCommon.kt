@@ -14,15 +14,17 @@ data class MusicStyleColors(
     val white: Color,
     val black: Color,
     val gray: Color,
+    val darkStubs: Color,
     val stubs: Color,
-    val purpleLight: Color,
-    val purpleDark: Color,
+    val primary: Color,
+    val initialValueColor: Color,
+    val targetValue: Color,
 )
 
 data class MusicStyleTypography(
     val title: TextStyle,
     val blockTitle: TextStyle,
-    val nameTrack: TextStyle,
+    val nameAudio: TextStyle,
     val nameAuthor: TextStyle,
     val smallText: TextStyle
 )
